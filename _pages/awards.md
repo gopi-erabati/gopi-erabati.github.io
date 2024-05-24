@@ -21,6 +21,6 @@ nav_order: 5
 * **Gold Medal**
   * Year: 2013
   * Awarding Institution: [Kakatiya University, India](https://kitsw.ac.in/)
-* Features in **Roll of Honor** board
+* Featured in **Roll of Honor** board
   * Year: 2013
   * Awarding Institution: [Kakatiya University, India](https://kitsw.ac.in/)
