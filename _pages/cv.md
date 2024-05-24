@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: assets/pdf/cv_gopi.pdf
+permalink: assets/pdf/CV_Gopi.pdf
 title: CV
 nav: true
 nav_order: 5
