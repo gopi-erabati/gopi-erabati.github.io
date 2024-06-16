@@ -1,17 +1,18 @@
 ---
 ---
 
+
 @article{retformer,
-    title={RetFormer: Embracing Point Cloud Transformer with Retentive Network},
-    author={Gopi Krishna Erabati and Helder Araujo},
-    journal={IEEE Transactions on Intelligent Vehicles},
-    year={2024},
-    abstract={Point Cloud Transformers (PCTs) have gained lot of attention not only on the indoor data but also on the large-scale outdoor 3D point clouds, such as in autonomous driving. However, the vanilla self-attention mechanism in PCTs does not include any explicit prior spatial information about the quantized voxels (or pillars). Recently, Retentive Network has gained attention in the natural language processing (NLP) domain due to its efficient modelling capability and remarkable performance, leveraged by the introduction of explicit decay mechanism which incorporates the distance related spatial prior knowledge into the model. As the NLP tasks are causal and one-dimensional in nature, the explicit decay is designed to be unidirectional and one-dimensional. However, the pillars in the Bird's Eye View (BEV) space are two-dimensional without causal properties. In this work, we propose RetFormer model by introducing bidirectional and two-dimensional decay mechanism for pillars in PCT and design the novel Multi-Scale Retentive Self-Attention (MSReSA) module. The introduction of explicit bidirectional and two-dimensional decay incorporates the 2D spatial distance related prior information of pillars into the PCT which significantly improves the modelling capacity of RetFormer. We evaluate our method on large-scale Waymo and KITTI datasets. RetFormer not only achieves significant performance gain over of 2.3 mAP and 3.2 mAP over PCT-based SST and FlatFormer respectively, and 6.4 mAP over sparse convolutional-based CenterPoint for small object pedestrian category on Waymo Open Dataset, but also is efficient with 3.2x speedup over SST and runs in real-time at ~69 FPS on a RTX 4090 GPU.},
-    bibtex_show={true},
-    abbr={3DObjDet-LiDAR},
-    selected={true},
-    code={https://github.com/gopi-erabati/RetFormer},
-    preview={retformer.png},
+    title = {RetFormer: Embracing Point Cloud Transformer with Retentive Network},
+    author = {Gopi Krishna Erabati and Helder Araujo},
+    journal = {IEEE Transactions on Intelligent Vehicles},
+    year = {2024},
+    abstract = {Point Cloud Transformers (PCTs) have gained lot of attention not only on the indoor data but also on the large-scale outdoor 3D point clouds, such as in autonomous driving. However, the vanilla self-attention mechanism in PCTs does not include any explicit prior spatial information about the quantized voxels (or pillars). Recently, Retentive Network has gained attention in the natural language processing (NLP) domain due to its efficient modelling capability and remarkable performance, leveraged by the introduction of explicit decay mechanism which incorporates the distance related spatial prior knowledge into the model. As the NLP tasks are causal and one-dimensional in nature, the explicit decay is designed to be unidirectional and one-dimensional. However, the pillars in the Bird's Eye View (BEV) space are two-dimensional without causal properties. In this work, we propose RetFormer model by introducing bidirectional and two-dimensional decay mechanism for pillars in PCT and design the novel Multi-Scale Retentive Self-Attention (MSReSA) module. The introduction of explicit bidirectional and two-dimensional decay incorporates the 2D spatial distance related prior information of pillars into the PCT which significantly improves the modelling capacity of RetFormer. We evaluate our method on large-scale Waymo and KITTI datasets. RetFormer not only achieves significant performance gain over of 2.3 mAP and 3.2 mAP over PCT-based SST and FlatFormer respectively, and 6.4 mAP over sparse convolutional-based CenterPoint for small object pedestrian category on Waymo Open Dataset, but also is efficient with 3.2x speedup over SST and runs in real-time at ~69 FPS on a RTX 4090 GPU.},
+    bibtex_show = {true},
+    abbr = {3DObjDet-LiDAR},
+    selected = {true},
+    code = {https://github.com/gopi-erabati/RetFormer},
+    preview = {retformer.png},
 }
 
 @article{srfdet3d,
