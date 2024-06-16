@@ -1,6 +1,5 @@
 ---
 ---
-% selected
 
 @article{retformer,
     title={RetFormer: Embracing Point Cloud Transformer with Retentive Network},
@@ -107,8 +106,6 @@
     code={https://github.com/gopi-erabati/MSF3DDETR},
 }
 
-
-%%%%%%%%%%%%%%% 
 @InProceedings{objdetcomp,
     author    = {Erabati, Gopi Krishna and Gonçalves, Nuno and Araujo, Helder},
     title     = {Object Detection in Traffic Scenarios - A Comparison of Traditional and Deep Learning Approaches},
@@ -154,6 +151,22 @@
     selected={false},
     preview={icdsc.png},
     abbr={2DObjDet},
+}
+
+@inproceedings{mosnet,
+    author = {Gopi Krishna Erabati and Helder Araujo},
+    title = {MOSNet: A lightweight Moving Object Segmentation Network for Autonomous Driving},
+    booktitle = {RECPAD 2021 - 27th Portuguese Conference on Pattern Recognition},
+    pages = {7-8},
+    year = {2021},
+    bibtex_show={true},
+    selected={false},
+    abstract={The ability to segment moving objects like cars is a very crucial element of visual perception system of autonomous vehicles for safe manoeuvrability of vehicles. In this paper, we aim to propose a light-weight Moving Object Segmentation Network (MOSNet) which adapts a two-stream architecture to extract appearance and motion features from RGB images and optical flow respectively. The extracted features are fused with the help of a fusion transformer, a Feature Pyramid Network (FPN) head is used to combine feature maps at various scales and further they are bilinearly upsampled to get back to the original dimension of the input which produces per-pixel class. The network is trained and tested on publicly available KITTI MOD dataset. It is shown that the proposed architecture achieves the Intersection over Union (IoU) of 48.89 % for moving objects and also runs at 50 fps on a RTX 2080 Ti GPU using a ShuffleNetV2 backbone.},
+    pdf={https://aprp.pt/wp-content/uploads/proceedings_recpad2021.pdf},
+    preview={mosnetres.png},
+    bibtex_show={true},
+    abbr={Moving Obj Seg},
+    selected={false},
 }
 
 @INPROCEEDINGS{7929140,
@@ -235,8 +248,6 @@
   selected={false},
 }
 
-
-
 @inproceedings{10.1117/12.3006235,
     author = {Nahid Nazifi and Helder Araujo and Gopi Krishna Erabati and Omar Tahri},
     title = {{Self-supervised monocular pose and depth estimation for wireless capsule endoscopy with transformers}},
@@ -255,24 +266,3 @@
     selected={false},
     abbr={Pose and Depth},
 }
-
-
-
-@inproceedings{mosnet,
-    author = {Gopi Krishna Erabati and Helder Araujo},
-    title = {MOSNet: A lightweight Moving Object Segmentation Network for Autonomous Driving},
-    booktitle = {RECPAD 2021 - 27th Portuguese Conference on Pattern Recognition},
-    pages = {7-8},
-    year = {2021},
-    bibtex_show={true},
-    selected={false},
-    abstract={The ability to segment moving objects like cars is a very crucial element of visual perception system of autonomous vehicles for safe manoeuvrability of vehicles. In this paper, we aim to propose a light-weight Moving Object Segmentation Network (MOSNet) which adapts a two-stream architecture to extract appearance and motion features from RGB images and optical flow respectively. The extracted features are fused with the help of a fusion transformer, a Feature Pyramid Network (FPN) head is used to combine feature maps at various scales and further they are bilinearly upsampled to get back to the original dimension of the input which produces per-pixel class. The network is trained and tested on publicly available KITTI MOD dataset. It is shown that the proposed architecture achieves the Intersection over Union (IoU) of 48.89 % for moving objects and also runs at 50 fps on a RTX 2080 Ti GPU using a ShuffleNetV2 backbone.},
-    pdf={https://aprp.pt/wp-content/uploads/proceedings_recpad2021.pdf},
-    preview={mosnetres.png},
-    bibtex_show={true},
-    abbr={Moving Obj Seg},
-    selected={false},
-}
-
-
-
