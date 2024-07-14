@@ -15,3 +15,4 @@ nav_order: 3
 * Development of 3D Scanner using Kinect and PCL. [[Code](https://github.com/gopi-erabati/3D-Reconstruction-of-Human-using-Kinect-v2-and-PCL)]
 * Development of Face Recognition software using PCA. [[Code](https://github.com/gopi-erabati/Face-Recognition-Using-PCA)]
 * Classification using SVM. [[Code](https://github.com/gopi-erabati/Classification-of-cats-and-dogs-using-SVM-classifier)]
+* Click [here](https://www.linkedin.com/in/gopierabati/details/projects/) for more projects
