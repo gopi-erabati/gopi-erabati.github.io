@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 I am currently a Ph.D. candidate working on **Scene Understanding for Autonomous Driving** at the [Institute of Systems and Robotics, University of Coimbra, Portugal](https://isr.uc.pt/).
 I am fortunate to be advised by [Prof. Helder Araujo](https://orcid.org/0000-0002-9544-424X).
-My primary research interests are focused on computer vision and machine learning for autonomous vehicles. 
+My primary research interests are focused on computer vision and machine learning, specifically tasks realted to scene understanding. 
 
 During my Ph.D. thesis, I worked on fundamental scene understanding tasks such as 3D object detection using LiDAR and
 multi-modal data fusion, 3D semantic segmentation, and panoptic driving perception.
