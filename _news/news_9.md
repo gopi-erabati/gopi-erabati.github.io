@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our RetFormer paper got accepted in *IEEE Transactions on Intelligent Vehicles (IEEE T-IV)* journal.
+Our [RetFormer](https://doi.org/10.1109/TIV.2024.3417260) paper got accepted in *IEEE Transactions on Intelligent Vehicles (IEEE T-IV)* journal.
