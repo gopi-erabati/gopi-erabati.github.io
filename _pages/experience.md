@@ -8,7 +8,7 @@ nav_order: 2
 ---
 
 **Research Experience**
-* **FCT PhD Researcher** - [ISR, University of Coimbra, Portugal](https://isr.uc.pt/) - (2022-present)
+* **Researcher** - [ISR, University of Coimbra, Portugal](https://isr.uc.pt/) - (2022-present)
   * Tasks: Proposing novel algorithms for scene understadning tasks such as 3D object detection using LiDAR and
 multi-modal data fusion, 3D semantic segmentation, and panoptic driving perception.
   * Mentor: [Prof. Helder Araujo](https://orcid.org/0000-0002-9544-424X)
