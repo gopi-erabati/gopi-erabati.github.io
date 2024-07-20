@@ -7,6 +7,28 @@ nav: true
 nav_order: 3
 ---
 
+### Learning to Perceive: Scene Understanding for Autonomous Driving
+
+PhD Thesis
+
+Scene understanding is the most fundamental module in the perception system of an autonomous vehicle, as it provides a contextual understanding of the scene, which is required for safe planning and control of the autonomous vehicle. In this thesis, we proposed novel algorithms for scene understanding tasks such as 3D object detection based on LiDAR and multi-modal data, 3D semantic segmentation, and a panoptic driving perception system for autonomous driving.
+
+<p>Publications during PhD research work can be found <a href="https://gopi-erabati.github.io/publications/">here</a></p>
+
+<p style="text-align: center;">Thesis Overview</p>
+
+<img src="../assets/img/PhDThesis/thesis-outline.png" width="700" height="350" class="center">
+
+| 3D Object Detection (LiDAR) | 3D Semantic Segmentation (LiDAR) |
+| :---: | :---: |
+| [<img src="../assets/img/PhDThesis/retformer_ss.png" width="500" height="250" class="center">](https://youtu.be/cbnHHVaWsuc)| [<img src="../assets/img/PhDThesis/retseg3d_ss.png" width="500" height="250" class="center">](https://youtu.be/Yr6Wu0nHeeE)|
+
+| 3D Object Detection (LiDAR + Camera) | Moving Object Segmentation |
+| :---: | :---: |
+| [<img src="../assets/img/PhDThesis/srfdet3d_ss.png" width="500" height="250" class="center">](https://youtu.be/TFJhpJ6JjMQ)| [<img src="../assets/img/PhDThesis/mosnet_ss.png" width="500" height="250" class="center">](https://youtu.be/4eYi80o8MQI)|
+
+**********
+
 ### 3D Object Detection and Relative Localization using a 3D sensor embedded on a Mobile Robot
 
 [Code](https://github.com/gopi-erabati/Object-Pose-Estimation) [Master Thesis](https://github.com/gopi-erabati/Object-Pose-Estimation/blob/master/GopikrishnaErabati-thesis.pdf) at LAAS-CNRS, Toulouse, France
@@ -15,7 +37,7 @@ This thesis tries to solve the issue of object pose estimation using 3D data of 
 
 | Single object pose estimation | Multiple objects pose estimation |
 | :---: | :---: |
-| [<img src="../assets/img/projects/objposeest1.png" width="500" height="250">](https://www.youtube.com/watch?v=8NoalZesWR0) | [<img src="../assets/img/projects/objposeest2.png" width="500" height="250">](https://www.youtube.com/watch?v=cyvhGSBhMF0) |
+| [<img src="../assets/img/projects/objposeest1.png" width="500" height="250" class="center">](https://www.youtube.com/watch?v=8NoalZesWR0) | [<img src="../assets/img/projects/objposeest2.png" width="500" height="250" class="center">](https://www.youtube.com/watch?v=cyvhGSBhMF0) |
 
 ***********
 
@@ -25,7 +47,7 @@ This thesis tries to solve the issue of object pose estimation using 3D data of 
 
 Actions can be characterized by spatiotemporal patterns. Like object detection, action detection finds the recurrences of such spatiotemporal patterns through pattern matching. I worked on a few types of interest-point based feature extractions like Spatio-Temporal Interest Point (STIP), 3D SIFT and Histogram of Oriented Optical Flow (HOOF) features. With the use of SVM classifier, I classified the actions. I implemented this human activity recognition on KTH dataset which has six actions like boxing, hand waving, hand clapping, jogging, running, and walking of 100 videos each.
 
-[<img src="../assets/img/projects/action.png" width="500" height="250">](https://www.youtube.com/watch?v=Cn639T80BhQ)
+[<img src="../assets/img/projects/action.png" width="500" height="250" class="center">](https://www.youtube.com/watch?v=Cn639T80BhQ)
 
 **********
 ### Mapping, Autonomous Navigation and Localization of TurtleBot using ROS
@@ -41,7 +63,7 @@ The motto of the project is to gain experience in the implementation of differen
 
 Our team developed the software to implement the 1, 2 and 5 points in the above list. The implementation can be found in the attached project report.
 
-[<img src="../assets/img/projects/turtlebotros.png" width="500" height="250">](https://www.youtube.com/watch?v=YPKXm8cRIKs)
+[<img src="../assets/img/projects/turtlebotros.png" width="500" height="250" class="center">](https://www.youtube.com/watch?v=YPKXm8cRIKs)
 
 **********
 ### Development of 3D Human Body Scanner using Kinect and PCL
@@ -65,7 +87,7 @@ In this project I aimed at developing CV tools like feature matching, camera cal
 | :---: | :---: |
 | <img src="../assets/img/projects/cvtoolbox1.png" width="500" height="250"> | <img src="../assets/img/projects/cvtoolboxmatlab.png" width="500" height="250"> |
 
-[<img src="../assets/img/projects/cvtoolboxss.png" width="500" height="250">](https://www.youtube.com/watch?v=9FG2c6Qe0XM)
+[<img src="../assets/img/projects/cvtoolboxss.png" width="500" height="250" class="center">](https://www.youtube.com/watch?v=9FG2c6Qe0XM)
 
 **********
 ### Development of Face Recognition Software using PCA
@@ -74,7 +96,7 @@ In this project I aimed at developing CV tools like feature matching, camera cal
 
 The main objective of our project is to recognize faces from the collected set of face data using PCA (Principal Component Analysis). We have collected five pictures of every person, and the idea here is to extract a few features from the faces with the goal of reducing the number of variables used to represent the faces. In the next step, we divide the faces into two categories of train and test images. But the problem here is, an image has high dimensionality space (each image is a point in a space of dimension d = MN, M and N being image size) as each pixel is considered as a variable of an image. So, we can reduce the dimensionality by using PCA to simplify recognition problem, which can be considered as the core concept.
 
-<img src="../assets/img/projects/facerecog.png" width="500" height="250">
+<img src="../assets/img/projects/facerecog.png" width="500" height="250" class="center">
 
 **********
 ### Bug0 Algorithm Implementation on E-Puck Robot
@@ -85,7 +107,7 @@ Bug 0 is a reactive-navigation algorithm that uses odometry. The robot starts wi
 
 | Bug 0 simulation 1 | Bug 0 simulation 2 |
 | :---: | :---: |
-| [<img src="../assets/img/projects/bug0.png" width="500" height="250">](https://www.youtube.com/watch?v=-hTFp8UpcRo) | [<img src="../assets/img/projects/bug0_1.png" width="500" height="250">](https://www.youtube.com/watch?v=R6BD9uD3BnU) |
+| [<img src="../assets/img/projects/bug0.png" width="500" height="250" class="center">](https://www.youtube.com/watch?v=-hTFp8UpcRo) | [<img src="../assets/img/projects/bug0_1.png" width="500" height="250" class="center">](https://www.youtube.com/watch?v=R6BD9uD3BnU) |
 
 **********
 ### Wall Follower E-Puck Robot
@@ -96,7 +118,7 @@ Objectives in this project were: 1. Move the robot forward and stop at some dist
 
 | Wall Follower (Simulation) | Wall Follower (Real-time) |
 | :---: | :---: |
-| [<img src="../assets/img/projects/wallfollow_sim.png" width="500" height="250">](https://www.youtube.com/watch?v=gT462ntTajk) | [<img src="../assets/img/projects/wallfollow_real.png" width="500" height="250">](https://www.youtube.com/watch?v=0B48A3jn3qA) |
+| [<img src="../assets/img/projects/wallfollow_sim.png" width="500" height="250" class="center">](https://www.youtube.com/watch?v=gT462ntTajk) | [<img src="../assets/img/projects/wallfollow_real.png" width="500" height="250" class="center">](https://www.youtube.com/watch?v=0B48A3jn3qA) |
 
 **********
 ### Forest Fire Mapping from Low Altitude Aerial Images
