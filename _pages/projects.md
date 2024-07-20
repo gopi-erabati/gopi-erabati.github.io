@@ -7,16 +7,14 @@ nav: true
 nav_order: 3
 ---
 
-## Research Projects
-
 ### 3D Object Detection and Relative Localization using a 3D sensor embedded on a Mobile Robot
 
-[Code](https://github.com/gopi-erabati/Object-Pose-Estimation); [Master Thesis](https://github.com/gopi-erabati/Object-Pose-Estimation/blob/master/GopikrishnaErabati-thesis.pdf) at LAAS-CNRS, Toulouse, France
+[Code](https://github.com/gopi-erabati/Object-Pose-Estimation) [Master Thesis](https://github.com/gopi-erabati/Object-Pose-Estimation/blob/master/GopikrishnaErabati-thesis.pdf) at LAAS-CNRS, Toulouse, France
 
 This thesis tries to solve the issue of object pose estimation using 3D data of scene acquired from 3D sensors (e.g., Kinect, Orbec Astra Pro among others). 3D data has an advantage of independence from object texture and invariance to illumination. The proposal is divided into two phases: An offline phase where the 3D model template of the object (for estimation of pose) is built using Iterative Closest Point (ICP) algorithm. And an online phase where the pose of the object is estimated by aligning the scene to the model using ICP, provided with an initial alignment using 3D descriptors (like Fast Point Feature Transform (FPFH)). The approach we develop is to be integrated on two different platforms: 1) Humanoid robot ‘Pyrene’ which has Orbec Astra Pro 3D sensor for data acquisition, and 2) Unmanned Aerial Vehicle (UAV) which has Intel RealSense Euclid on it. The datasets of objects (like electric drill, brick, a small cylinder, cake box) are acquired using Microsoft Kinect, Orbec Astra Pro and Intel RealSense Euclid sensors to test the performance of this technique. The objects used to test this approach are the ones used by robots. This technique is tested in two scenarios, firstly, when the object is on the table and secondly when the object is held in hand by a person. The range of objects from the sensor is 0.6 to 1.6m. This technique could handle occlusions of the object by hand (when we hold the object), as ICP can work even if partial object is visible in the scene.
 
 | Single object pose estimation | Multiple objects pose estimation |
-| --- | --- |
+| :---: | :---: |
 | [<img src="../assets/img/projects/objposeest1.png" width="500" height="250">](https://www.youtube.com/watch?v=8NoalZesWR0) | [<img src="../assets/img/projects/objposeest2.png" width="500" height="250">](https://www.youtube.com/watch?v=cyvhGSBhMF0) |
 
 ***********
@@ -53,7 +51,7 @@ Our team developed the software to implement the 1, 2 and 5 points in the above 
 The main objective of this project is to develop human 3D scanner software able to fully interface with a scanner rig composed of a turning table and a stationary depth sensor. The software is aimed to perform full body scan under 90 seconds. A friendly, interactive graphical user interface provides simple control and outputs watertight mesh results that can be used mainly but not limited to 3D printing. The project was implemented using Microsoft Kinect v2 and PCL library in a Windows OS.
 
 | Registration using ICP with Normals | Noise Removal and Smoothing |
-| --- | --- |
+| :---: | :---: |
 | ![](../assets/img/projects/scanner1.png) | ![](../assets/img/projects/scanner2.png) |
 
 **********
@@ -64,13 +62,13 @@ The main objective of this project is to develop human 3D scanner software able 
 In this project I aimed at developing CV tools like feature matching, camera calibration etc. not only using OpenCV and C++ but also with MATLAB.
 
 | CV Toolbox GUI in C++ | CV Toolbox GUI in MATLAB |
-| --- | --- |
+| :---: | :---: |
 | <img src="../assets/img/projects/cvtoolbox1.png" width="500" height="250"> | <img src="../assets/img/projects/cvtoolboxmatlab.png" width="500" height="250"> |
 
 [<img src="../assets/img/projects/cvtoolboxss.png" width="500" height="250">](https://www.youtube.com/watch?v=9FG2c6Qe0XM)
 
 **********
-### Development of Face Recognition software using PCA
+### Development of Face Recognition Software using PCA
 
 [Code](https://github.com/gopi-erabati/Face-Recognition-Using-PCA) [Report](https://github.com/gopi-erabati/Face-Recognition-Using-PCA/blob/master/report_facerecog_PCA_ERABATI_DOUSAI.pdf)
 
@@ -86,7 +84,7 @@ The main objective of our project is to recognize faces from the collected set o
 Bug 0 is a reactive-navigation algorithm that uses odometry. The robot starts with knowledge of the position of goal relative to its initial pose, but no knowledge of the environment. The strategy is then to use odometry to orient and move toward goal while reactively avoiding obstacles.
 
 | Bug 0 simulation 1 | Bug 0 simulation 2 |
-| --- | --- |
+| :---: | :---: |
 | [<img src="../assets/img/projects/bug0.png" width="500" height="250">](https://www.youtube.com/watch?v=-hTFp8UpcRo) | [<img src="../assets/img/projects/bug0_1.png" width="500" height="250">](https://www.youtube.com/watch?v=R6BD9uD3BnU) |
 
 **********
@@ -96,8 +94,8 @@ Bug 0 is a reactive-navigation algorithm that uses odometry. The robot starts wi
 
 Objectives in this project were: 1. Move the robot forward and stop at some distance from the wall and 2. Follow the encountered wall. Our approach was to build small behaviors like 'move forward', 'stop', etc. and organize them into a composite behavior that fulfilled the objectives. To make our robot follow a wall, we developed a 'follow wall' behavior based on PID control. We worked with a robot called e-puck, a differential-drive non-holonomic robot, to develop and deploy simple concepts in autonomous behavior-based robotics.
 
-| Wall Follower Simulation | Wall Follower Real-time |
-| --- | --- |
+| Wall Follower (Simulation) | Wall Follower (Real-time) |
+| :---: | :---: |
 | [<img src="../assets/img/projects/wallfollow_sim.png" width="500" height="250">](https://www.youtube.com/watch?v=gT462ntTajk) | [<img src="../assets/img/projects/wallfollow_real.png" width="500" height="250">](https://www.youtube.com/watch?v=0B48A3jn3qA) |
 
 **********
