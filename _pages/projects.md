@@ -17,7 +17,7 @@ This thesis tries to solve the issue of object pose estimation using 3D data of 
 
 | Single object pose estimation | Multiple objects pose estimation |
 | --- | --- |
-| [![](../assets/img/projects/objposeest1.png)](https://www.youtube.com/watch?v=8NoalZesWR0) | [![](../assets/img/projects/objposeest2.png)](https://www.youtube.com/watch?v=cyvhGSBhMF0) |
+| [<img src="../assets/img/projects/objposeest1.png" width="500" height="250">](https://www.youtube.com/watch?v=8NoalZesWR0) | [<img src="../assets/img/projects/objposeest2.png" width="500" height="250">](https://www.youtube.com/watch?v=cyvhGSBhMF0) |
 
 ***********
 
@@ -65,7 +65,7 @@ In this project I aimed at developing CV tools like feature matching, camera cal
 
 | CV Toolbox GUI in C++ | CV Toolbox GUI in MATLAB |
 | --- | --- |
-| ![](../assets/img/projects/cvtoolbox1.png) | ![](../assets/img/projects/cvtoolboxmatlab.png) |
+| <img src="../assets/img/projects/cvtoolbox1.png" width="500" height="250"> | <img src="../assets/img/projects/cvtoolboxmatlab.png" width="500" height="250"> |
 
 [<img src="../assets/img/projects/cvtoolboxss.png" width="500" height="250">](https://www.youtube.com/watch?v=9FG2c6Qe0XM)
 
