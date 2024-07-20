@@ -47,7 +47,7 @@ This thesis tries to solve the issue of object pose estimation using 3D data of 
 
 Actions can be characterized by spatiotemporal patterns. Like object detection, action detection finds the recurrences of such spatiotemporal patterns through pattern matching. I worked on a few types of interest-point based feature extractions like Spatio-Temporal Interest Point (STIP), 3D SIFT and Histogram of Oriented Optical Flow (HOOF) features. With the use of SVM classifier, I classified the actions. I implemented this human activity recognition on KTH dataset which has six actions like boxing, hand waving, hand clapping, jogging, running, and walking of 100 videos each.
 
-<p style="text-align:center;">[<img src="../assets/img/projects/action.png" width="500" height="250">](https://www.youtube.com/watch?v=Cn639T80BhQ)</p>
+[<img src="../assets/img/projects/action.png" width="500" height="250">](https://www.youtube.com/watch?v=Cn639T80BhQ)
 
 **********
 ### Mapping, Autonomous Navigation and Localization of TurtleBot using ROS
@@ -63,7 +63,7 @@ The motto of the project is to gain experience in the implementation of differen
 
 Our team developed the software to implement the 1, 2 and 5 points in the above list. The implementation can be found in the attached project report.
 
-<p style="text-align:center;">[<img src="../assets/img/projects/turtlebotros.png" width="500" height="250">](https://www.youtube.com/watch?v=YPKXm8cRIKs)</p>
+[<img src="../assets/img/projects/turtlebotros.png" width="500" height="250">](https://www.youtube.com/watch?v=YPKXm8cRIKs)
 
 **********
 ### Development of 3D Human Body Scanner using Kinect and PCL
@@ -74,7 +74,7 @@ The main objective of this project is to develop human 3D scanner software able 
 
 | Registration using ICP with Normals | Noise Removal and Smoothing |
 | :---: | :---: |
-| <img src="../assets/img/projects/scanner1.png" width="500" height="250"> | <img src="../assets/img/projects/scanner2.png" width="500" height="250"> |
+| ![](../assets/img/projects/scanner1.png) | ![](../assets/img/projects/scanner2.png) |
 
 **********
 ### Development of Computer Vision Toolbox in C++ and MATLAB using OpenCV
@@ -87,7 +87,7 @@ In this project I aimed at developing CV tools like feature matching, camera cal
 | :---: | :---: |
 | <img src="../assets/img/projects/cvtoolbox1.png" width="500" height="250"> | <img src="../assets/img/projects/cvtoolboxmatlab.png" width="500" height="250"> |
 
-<p style="text-align:center;">[<img src="../assets/img/projects/cvtoolboxss.png" width="500" height="250">](https://www.youtube.com/watch?v=9FG2c6Qe0XM)</p>
+[<img src="../assets/img/projects/cvtoolboxss.png" width="500" height="250">](https://www.youtube.com/watch?v=9FG2c6Qe0XM)
 
 **********
 ### Development of Face Recognition Software using PCA
@@ -96,7 +96,7 @@ In this project I aimed at developing CV tools like feature matching, camera cal
 
 The main objective of our project is to recognize faces from the collected set of face data using PCA (Principal Component Analysis). We have collected five pictures of every person, and the idea here is to extract a few features from the faces with the goal of reducing the number of variables used to represent the faces. In the next step, we divide the faces into two categories of train and test images. But the problem here is, an image has high dimensionality space (each image is a point in a space of dimension d = MN, M and N being image size) as each pixel is considered as a variable of an image. So, we can reduce the dimensionality by using PCA to simplify recognition problem, which can be considered as the core concept.
 
-<p style="text-align:center;"><img src="../assets/img/projects/facerecog.png" width="500" height="250"></p>
+<img src="../assets/img/projects/facerecog.png" width="500" height="250">
 
 **********
 ### Bug0 Algorithm Implementation on E-Puck Robot
