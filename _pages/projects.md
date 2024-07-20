@@ -47,7 +47,7 @@ This thesis tries to solve the issue of object pose estimation using 3D data of 
 
 Actions can be characterized by spatiotemporal patterns. Like object detection, action detection finds the recurrences of such spatiotemporal patterns through pattern matching. I worked on a few types of interest-point based feature extractions like Spatio-Temporal Interest Point (STIP), 3D SIFT and Histogram of Oriented Optical Flow (HOOF) features. With the use of SVM classifier, I classified the actions. I implemented this human activity recognition on KTH dataset which has six actions like boxing, hand waving, hand clapping, jogging, running, and walking of 100 videos each.
 
-[<p style="text-align:center;"><img src="../assets/img/projects/action.png" width="500" height="250"></p>](https://www.youtube.com/watch?v=Cn639T80BhQ)
+<p style="text-align:center;">[<img src="../assets/img/projects/action.png" width="500" height="250">](https://www.youtube.com/watch?v=Cn639T80BhQ)</p>
 
 **********
 ### Mapping, Autonomous Navigation and Localization of TurtleBot using ROS
@@ -63,7 +63,7 @@ The motto of the project is to gain experience in the implementation of differen
 
 Our team developed the software to implement the 1, 2 and 5 points in the above list. The implementation can be found in the attached project report.
 
-[<p style="text-align:center;"><img src="../assets/img/projects/turtlebotros.png" width="500" height="250"></p>](https://www.youtube.com/watch?v=YPKXm8cRIKs)
+<p style="text-align:center;">[<img src="../assets/img/projects/turtlebotros.png" width="500" height="250">](https://www.youtube.com/watch?v=YPKXm8cRIKs)</p>
 
 **********
 ### Development of 3D Human Body Scanner using Kinect and PCL
@@ -72,11 +72,9 @@ Our team developed the software to implement the 1, 2 and 5 points in the above 
 
 The main objective of this project is to develop human 3D scanner software able to fully interface with a scanner rig composed of a turning table and a stationary depth sensor. The software is aimed to perform full body scan under 90 seconds. A friendly, interactive graphical user interface provides simple control and outputs watertight mesh results that can be used mainly but not limited to 3D printing. The project was implemented using Microsoft Kinect v2 and PCL library in a Windows OS.
 
-<div align="center">
 | Registration using ICP with Normals | Noise Removal and Smoothing |
 | :---: | :---: |
 | <img src="../assets/img/projects/scanner1.png" width="500" height="250"> | <img src="../assets/img/projects/scanner2.png" width="500" height="250"> |
-</div>
 
 **********
 ### Development of Computer Vision Toolbox in C++ and MATLAB using OpenCV
@@ -85,13 +83,11 @@ The main objective of this project is to develop human 3D scanner software able 
 
 In this project I aimed at developing CV tools like feature matching, camera calibration etc. not only using OpenCV and C++ but also with MATLAB.
 
-<div align="center">
 | CV Toolbox GUI in C++ | CV Toolbox GUI in MATLAB |
 | :---: | :---: |
 | <img src="../assets/img/projects/cvtoolbox1.png" width="500" height="250"> | <img src="../assets/img/projects/cvtoolboxmatlab.png" width="500" height="250"> |
-</div>
 
-[<p style="text-align:center;"><img src="../assets/img/projects/cvtoolboxss.png" width="500" height="250"></p>](https://www.youtube.com/watch?v=9FG2c6Qe0XM)
+<p style="text-align:center;">[<img src="../assets/img/projects/cvtoolboxss.png" width="500" height="250">](https://www.youtube.com/watch?v=9FG2c6Qe0XM)</p>
 
 **********
 ### Development of Face Recognition Software using PCA
