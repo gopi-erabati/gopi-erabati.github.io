@@ -9,7 +9,7 @@ nav_order: 3
 
 ### Learning to Perceive: Scene Understanding for Autonomous Driving
 
-PhD Thesis
+PhD Thesis at Institute of Systems and Robotics, University of Coimbra, Portugal
 
 Scene understanding is the most fundamental module in the perception system of an autonomous vehicle, as it provides a contextual understanding of the scene, which is required for safe planning and control of the autonomous vehicle. In this thesis, we proposed novel algorithms for scene understanding tasks such as 3D object detection based on LiDAR and multi-modal data, 3D semantic segmentation, and a panoptic driving perception system for autonomous driving.
 
@@ -17,7 +17,7 @@ Scene understanding is the most fundamental module in the perception system of a
 
 <p style="text-align: center;">Thesis Overview</p>
 
-<img src="../assets/img/PhDThesis/thesis-outline.png" width="700" height="350" class="center">
+<p style="text-align:center;"><img src="../assets/img/PhDThesis/thesis-outline.png" width="700" height="350"></p>
 
 | 3D Object Detection (LiDAR) | 3D Semantic Segmentation (LiDAR) |
 | :---: | :---: |
@@ -29,7 +29,7 @@ Scene understanding is the most fundamental module in the perception system of a
 
 **********
 
-### 3D Object Detection and Relative Localization using a 3D sensor embedded on a Mobile Robot
+### 3D Object Detection and Relative Localization using a 3D Sensor Embedded on a Mobile Robot
 
 [Code](https://github.com/gopi-erabati/Object-Pose-Estimation) [Master Thesis](https://github.com/gopi-erabati/Object-Pose-Estimation/blob/master/GopikrishnaErabati-thesis.pdf) at LAAS-CNRS, Toulouse, France
 
@@ -47,7 +47,7 @@ This thesis tries to solve the issue of object pose estimation using 3D data of 
 
 Actions can be characterized by spatiotemporal patterns. Like object detection, action detection finds the recurrences of such spatiotemporal patterns through pattern matching. I worked on a few types of interest-point based feature extractions like Spatio-Temporal Interest Point (STIP), 3D SIFT and Histogram of Oriented Optical Flow (HOOF) features. With the use of SVM classifier, I classified the actions. I implemented this human activity recognition on KTH dataset which has six actions like boxing, hand waving, hand clapping, jogging, running, and walking of 100 videos each.
 
-[<img src="../assets/img/projects/action.png" width="500" height="250" class="center">](https://www.youtube.com/watch?v=Cn639T80BhQ)
+[<p style="text-align:center;"><img src="../assets/img/projects/action.png" width="500" height="250"></p>](https://www.youtube.com/watch?v=Cn639T80BhQ)
 
 **********
 ### Mapping, Autonomous Navigation and Localization of TurtleBot using ROS
@@ -63,7 +63,7 @@ The motto of the project is to gain experience in the implementation of differen
 
 Our team developed the software to implement the 1, 2 and 5 points in the above list. The implementation can be found in the attached project report.
 
-[<img src="../assets/img/projects/turtlebotros.png" width="500" height="250" class="center">](https://www.youtube.com/watch?v=YPKXm8cRIKs)
+[<p style="text-align:center;"><img src="../assets/img/projects/turtlebotros.png" width="500" height="250"></p>](https://www.youtube.com/watch?v=YPKXm8cRIKs)
 
 **********
 ### Development of 3D Human Body Scanner using Kinect and PCL
@@ -72,9 +72,11 @@ Our team developed the software to implement the 1, 2 and 5 points in the above 
 
 The main objective of this project is to develop human 3D scanner software able to fully interface with a scanner rig composed of a turning table and a stationary depth sensor. The software is aimed to perform full body scan under 90 seconds. A friendly, interactive graphical user interface provides simple control and outputs watertight mesh results that can be used mainly but not limited to 3D printing. The project was implemented using Microsoft Kinect v2 and PCL library in a Windows OS.
 
+<div align="center">
 | Registration using ICP with Normals | Noise Removal and Smoothing |
 | :---: | :---: |
-| ![](../assets/img/projects/scanner1.png) | ![](../assets/img/projects/scanner2.png) |
+| <img src="../assets/img/projects/scanner1.png" width="500" height="250"> | <img src="../assets/img/projects/scanner2.png" width="500" height="250"> |
+</div>
 
 **********
 ### Development of Computer Vision Toolbox in C++ and MATLAB using OpenCV
@@ -83,11 +85,13 @@ The main objective of this project is to develop human 3D scanner software able 
 
 In this project I aimed at developing CV tools like feature matching, camera calibration etc. not only using OpenCV and C++ but also with MATLAB.
 
+<div align="center">
 | CV Toolbox GUI in C++ | CV Toolbox GUI in MATLAB |
 | :---: | :---: |
 | <img src="../assets/img/projects/cvtoolbox1.png" width="500" height="250"> | <img src="../assets/img/projects/cvtoolboxmatlab.png" width="500" height="250"> |
+</div>
 
-[<img src="../assets/img/projects/cvtoolboxss.png" width="500" height="250" class="center">](https://www.youtube.com/watch?v=9FG2c6Qe0XM)
+[<p style="text-align:center;"><img src="../assets/img/projects/cvtoolboxss.png" width="500" height="250"></p>](https://www.youtube.com/watch?v=9FG2c6Qe0XM)
 
 **********
 ### Development of Face Recognition Software using PCA
@@ -96,7 +100,7 @@ In this project I aimed at developing CV tools like feature matching, camera cal
 
 The main objective of our project is to recognize faces from the collected set of face data using PCA (Principal Component Analysis). We have collected five pictures of every person, and the idea here is to extract a few features from the faces with the goal of reducing the number of variables used to represent the faces. In the next step, we divide the faces into two categories of train and test images. But the problem here is, an image has high dimensionality space (each image is a point in a space of dimension d = MN, M and N being image size) as each pixel is considered as a variable of an image. So, we can reduce the dimensionality by using PCA to simplify recognition problem, which can be considered as the core concept.
 
-<img src="../assets/img/projects/facerecog.png" width="500" height="250" class="center">
+<p style="text-align:center;"><img src="../assets/img/projects/facerecog.png" width="500" height="250"></p>
 
 **********
 ### Bug0 Algorithm Implementation on E-Puck Robot
