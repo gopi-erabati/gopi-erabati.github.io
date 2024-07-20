@@ -79,12 +79,67 @@ The main objective of our project is to recognize faces from the collected set o
 <img src="../assets/img/projects/facerecog.png" width="500" height="250">
 
 **********
-### 
+### Bug0 Algorithm Implementation on E-Puck Robot
 
-* Human Activity Recognition in Videos. [[Code](https://github.com/gopi-erabati/Human-Activity-Recognition-from-Videos-Using-Machine-Learning)]
-* Mapping, Autonomous Navigation and Localization of Turtlebot using ROS. [[Code](https://github.com/gopi-erabati/Mapping_LocalizationOfARMarkers_Navigation_ROS_Turtlebot)]
-* Development of Computer Vision Toolbox in C++ [[Code](https://github.com/gopi-erabati/Development-of-Image-Processing-and-Computer-Vision-Toolbox-using-C-and-OpenCV)] and MATLAB [[Code](https://github.com/gopi-erabati/Development-of-Image-Processing-and-Computer-Vision-Toolbox-using-MATLAB)] using OpenCV.
-* Development of 3D Scanner using Kinect and PCL. [[Code](https://github.com/gopi-erabati/3D-Reconstruction-of-Human-using-Kinect-v2-and-PCL)]
-* Development of Face Recognition software using PCA. [[Code](https://github.com/gopi-erabati/Face-Recognition-Using-PCA)]
-* Classification using SVM. [[Code](https://github.com/gopi-erabati/Classification-of-cats-and-dogs-using-SVM-classifier)]
-* Click [here](https://www.linkedin.com/in/gopierabati/details/projects/) for more projects
+[Code](https://github.com/gopi-erabati/Bug0-Algorithm-Implementation-on-E-Puck-Robot) [Report](https://github.com/gopi-erabati/Bug0-Algorithm-Implementation-on-E-Puck-Robot/blob/master/report_bug0.pdf)
+
+Bug 0 is a reactive-navigation algorithm that uses odometry. The robot starts with knowledge of the position of goal relative to its initial pose, but no knowledge of the environment. The strategy is then to use odometry to orient and move toward goal while reactively avoiding obstacles.
+
+| Bug 0 simulation 1 | Bug 0 simulation 2 |
+| --- | --- |
+| [<img src="../assets/img/projects/bug0.png" width="500" height="250">](https://www.youtube.com/watch?v=-hTFp8UpcRo) | [<img src="../assets/img/projects/bug0_1.png" width="500" height="250">](https://www.youtube.com/watch?v=R6BD9uD3BnU) |
+
+**********
+### Wall Follower E-Puck Robot
+
+[Code](https://github.com/gopi-erabati/Wall-Follower-E-Puck-Robot) [Report](https://github.com/gopi-erabati/Wall-Follower-E-Puck-Robot/blob/master/Ghimire_Erabati_P0report.pdf)
+
+Objectives in this project were: 1. Move the robot forward and stop at some distance from the wall and 2. Follow the encountered wall. Our approach was to build small behaviors like 'move forward', 'stop', etc. and organize them into a composite behavior that fulfilled the objectives. To make our robot follow a wall, we developed a 'follow wall' behavior based on PID control. We worked with a robot called e-puck, a differential-drive non-holonomic robot, to develop and deploy simple concepts in autonomous behavior-based robotics.
+
+| Wall Follower Simulation | Wall Follower Real-time |
+| --- | --- |
+| [<img src="../assets/img/projects/wallfollow_sim.png" width="500" height="250">](https://www.youtube.com/watch?v=gT462ntTajk) | [<img src="../assets/img/projects/wallfollow_real.png" width="500" height="250">](https://www.youtube.com/watch?v=0B48A3jn3qA) |
+
+**********
+### Forest Fire Mapping from Low Altitude Aerial Images
+
+[Code](https://github.com/gopi-erabati/Forest-Fire-Mapping-from-low-altitude-aerial-images)
+
+This project deals with the projection of forest fire segmented images onto the Digital Elevation Models (DEMs) using the Pinhole camera model. The project is developed in C++ using OpenCV and GDAL libraries. The inputs are: Digital Elevation Map (DEM) - raster model and Geo-referenced Images. The output is a fire map. This code concentrates on segmenting the geo-referenced images and updating the fire map by projecting the segmented images onto the DEM.
+
+**********
+### Classification using SVM
+
+[Code](https://github.com/gopi-erabati/Classification-of-cats-and-dogs-using-SVM-classifier) [Report](https://github.com/gopi-erabati/Classification-of-cats-and-dogs-using-SVM-classifier/blob/master/report_hw2_GopikrishnaErabati.pdf)
+
+The project aims to classify dogs and cats with the help of feature descriptor for representing the training data and training the SVM and application of cross-validation.
+
+**********
+### Build a Classifier to Filter Spam Emails
+
+[Code](https://github.com/gopi-erabati/Build-a-classifier-to-filter-spam-emails) [Report](https://github.com/gopi-erabati/Build-a-classifier-to-filter-spam-emails/blob/master/report_hw2_GopikrishnaErabati.pdf)
+
+The aim of this project is to build a classifier to filter spam emails. Before training a classifier, we can apply several preprocessing methods to this data such as standardize, transform or binarize data. For each preprocessing, a logistic regression model is fitted and compared with Naive Bayes classifier.
+
+**********
+### Projective Reconstruction
+
+[Code](https://github.com/gopi231091/Projective-Reconstruction) [Report](https://github.com/gopi-erabati/Projective-Reconstruction/blob/master/report_GOPIKRISHNA-ERABATI.pdf)
+
+This project aims to understand the pin-hole camera model and projective geometry. It deals with the computation of the fundamental matrix from camera parameters and the estimation of the fundamental matrix using two images. This project provides insight into epipolar geometry and stereovision.
+
+**********
+### Implementing Horn-Schunck and Lucas Kanade Optical Flow Methods
+
+[Code](https://github.com/gopi-erabati/Implementing-Horn-Schunck-and-Lucas-Kanade-Optical-Flow-Methods) [Report](https://github.com/gopi-erabati/Implementing-Horn-Schunck-and-Lucas-Kanade-Optical-Flow-Methods/blob/master/report_GOPIKRISHNA-ERABATI.pdf)
+
+The pattern of apparent motion of objects, surfaces, and edges in a visual scene that results from the relative motion between an observer and a scene is known as optical flow. It depends on the brightness constancy assumption. Horn and Schunck method is a global method to find optical flow. The main idea is to make the optical flow smooth. As the Optical Flow Constraint Equation (OFCE) is an under constrained equation that cannot be solved for each pixel, they proposed to add another smoothness term to OFCE. This method works for small motion. Lucas Kanade is a local method. The main idea is that the optical flow is constant near the current point (x, y). Each neighbor gives one equation. Here we assume that pixel's neighbor has same velocity (u, v). by taking pixels in a neighborhood, we get an over determined system which can be solved by Linear least squares or by pseudo inverse.
+
+**********
+### 2D Filtering using VHDL and FPGA
+
+[Code](https://github.com/gopi-erabati/2D-Filtering-using-VHDL-and-FPGA) [Report](https://github.com/gopi-erabati/2D-Filtering-using-VHDL-and-FPGA/blob/master/report_2DFilterImple_GopikrishnaERABATI_AvinashNARAYANA.pdf)
+
+The task is to implement a 2D filter to process the images using FPGA and VHDL (Very High-Speed Integrated Circuit Hardware Description Language). The image is 128 x 128 pixels in resolution and the kernel size is 33 pixels. The software used for the simulation and implementation is Xilinx ISE (Integrated Synthesis Environment) Design Suite and the language is VHDL.
+
+**********
