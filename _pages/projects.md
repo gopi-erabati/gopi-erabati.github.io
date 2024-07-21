@@ -9,6 +9,8 @@ nav_order: 3
 
 ### Learning to Perceive: Scene Understanding for Autonomous Driving
 
+*EU H2020 Marie Skłodowska‑Curie Actions Innovative Training Network ACHIEVE ([MSCA-ITN-ACHIEVE](http://www2.imse-cnm.csic.es/achieve-itn/)) grant agreement No. 765866*
+
 PhD Thesis at Institute of Systems and Robotics, University of Coimbra, Portugal
 
 Scene understanding is the most fundamental module in the perception system of an autonomous vehicle, as it provides a contextual understanding of the scene, which is required for safe planning and control of the autonomous vehicle. In this thesis, we proposed novel algorithms for scene understanding tasks such as 3D object detection based on LiDAR and multi-modal data, 3D semantic segmentation, and a panoptic driving perception system for autonomous driving.
