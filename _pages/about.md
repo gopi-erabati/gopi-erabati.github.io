@@ -29,7 +29,7 @@ Prior to joining UC, I obtained a M.Sc. degree in Computer Vision in the [Erasmu
 program at the [Université de Dijon, France](https://en.u-bourgogne.fr/).
 I had done my master thesis advised by [Prof. Frédéric Lerasle](https://homepages.laas.fr/lerasle/) 
 and my summer internship advised by [Dr. Simon Lacroix](https://homepages.laas.fr/simon/HomePage/Home.html) at [LAAS-CNRS, France](https://www.laas.fr/en/).
-I had obtained a B.Tech. degree in Electrical and Instrumentation Engineering at [Kakatiya University, India](https://kitsw.ac.in/).
+I had obtained a B.Tech. degree in Electronics and Instrumentation Engineering at [Kakatiya University, India](https://kitsw.ac.in/).
 I received a _Gold Medal from the Hon'ble Governor of Telangana, India, for excellence in academics_ during my 
 bachleor's degree at Kakatiya University, India.
 
