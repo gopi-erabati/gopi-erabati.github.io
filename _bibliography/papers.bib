@@ -77,20 +77,6 @@
     video={https://youtu.be/jnYDfZbVsjw},
 }
 
-@article{ddet3d,
-    title = {DDet3D: Embracing 3D Object Detector with Diffusion},
-    author = {Gopi Krishna Erabati and Helder Araujo},
-    journal = {Applied Intelligence},
-    year = {2024},
-    abstract = {Existing approaches rely on heuristic or learnable object proposals (which are required to be optimised during training) for 3D object detection. In our approach, we replace the hand-crafted or learnable object proposals with randomly generated object proposals by formulating a new paradigm to employ a diffusion model to detect 3D objects from a set of randomly generated and supervised learning-based object proposals in an autonomous driving application. We propose DDet3D, a diffusion-based 3D object detection framework that formulates 3D object detection as a generative task over the 3D bounding box coordinates in 3D space. To our knowledge, this work is the first to formulate the 3D object detection with denoising diffusion model and to establish that 3D randomly generated and supervised learning-based proposals (different from empirical anchors or learnt queries) are also potential object candidates for 3D object detection. During training, the 3D random noisy boxes are employed from the 3D ground truth boxes by progressively adding Gaussian noise, and the DDet3D network is trained to reverse the diffusion process. During the inference stage, the DDet3D network is able to iteratively refine the 3D randomly generated and supervised learning-based noisy boxes to predict 3D bounding boxes conditioned on the LiDAR Bird’s Eye View (BEV) features. The advantage of DDet3D is that it allows to decouple training and inference stages, thus enabling the use of a larger number of proposal boxes or sampling steps during inference to improve accuracy. We conduct extensive experiments and analysis on the nuScenes and KITTI datasets. DDet3D achieves competitive performance compared to well-designed 3D object detectors. Our work serves as a strong baseline to explore and employ more efficient diffusion models for 3D perception tasks.},
-    bibtex_show = {true},
-    abbr = {3DObjDet-LiDAR},
-    selected = {true},
-    code = {https://github.com/gopi-erabati/DDet3D},
-    preview = {ddet3d.png},
-    video = {https://youtu.be/3XQd5G-wGNM},
-}
-
 @InProceedings{dafdetr,
     author="Erabati, Gopi Krishna
     and Araujo, Helder",
