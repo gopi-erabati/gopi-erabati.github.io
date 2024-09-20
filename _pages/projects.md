@@ -19,7 +19,7 @@ Scene understanding is the most fundamental module in the perception system of a
 
 <p style="text-align: center;">Thesis Overview</p>
 
-<p style="text-align:center;"><img src="../assets/img/PhDThesis/thesis-outline.png" width="700" height="350"></p>
+<p style="text-align:center;"><img src="../assets/img/PhDThesis/research-outline.png" width="700" height="350"></p>
 
 | 3D Object Detection (LiDAR) | 3D Semantic Segmentation (LiDAR) |
 | :---: | :---: |
