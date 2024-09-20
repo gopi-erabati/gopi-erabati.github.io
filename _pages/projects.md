@@ -162,6 +162,6 @@ The pattern of apparent motion of objects, surfaces, and edges in a visual scene
 
 [Code](https://github.com/gopi-erabati/2D-Filtering-using-VHDL-and-FPGA) [Report](https://github.com/gopi-erabati/2D-Filtering-using-VHDL-and-FPGA/blob/master/report_2DFilterImple_GopikrishnaERABATI_AvinashNARAYANA.pdf)
 
-The task is to implement a 2D filter to process the images using FPGA and VHDL (Very High-Speed Integrated Circuit Hardware Description Language). The image is 128 x 128 pixels in resolution and the kernel size is 33 pixels. The software used for the simulation and implementation is Xilinx ISE (Integrated Synthesis Environment) Design Suite and the language is VHDL.
+The task is to implement a 2D filter to process the images using FPGA and VHDL. The image is 128 x 128 pixels in resolution and the kernel size is 33 pixels. The software used for the simulation and implementation is Xilinx ISE (Integrated Synthesis Environment) Design Suite and the language is VHDL.
 
 **********
