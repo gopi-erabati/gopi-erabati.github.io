@@ -39,11 +39,16 @@
 }
 
 @article{retseg3d,
-    title = {RetSeg3D: Retention-based 3D Semantic Segmentation for Autonomous Driving},
+    title = {RetSeg3D: Retention-based 3D semantic segmentation for autonomous driving},
     journal = {Computer Vision and Image Understanding},
-    author = {Gopi Krishna Erabati and Helder Araujo},
+    pages = {104231},
     year = {2024},
-    abstract = {LiDAR semantic segmentation is one of the crucial tasks for scene understanding in autonomous driving. Recent trends suggest that voxel- or fusion-based methods obtain improved performance. However, the fusion-based methods are computationally expensive. On the other hand, the voxel-based methods uniformly employ local operators (e.g., 3D SparseConv) without considering the varying-density property of LiDAR point clouds, which result in inferior performance, specifically on far away sparse points due to limited receptive field. To tackle this issue, we propose novel retention block to capture long-range dependencies, maintain the receptive field of far away sparse points and design RetSeg3D, a retention-based 3D semantic segmentation model for autonomous driving. Instead of vanilla attention mechanism to model long-range dependencies, inspired by RetNet, we design cubic window multi-scale retentive self-attention (CW-MSRetSA) module with bidirectional and 3D explicit decay mechanism to introduce 3D spatial distance related prior information into the model to improve not only the receptive field but also the model capacity. Our novel retention block maintains the receptive field which significantly improve the performance of far away sparse points. We conduct extensive experiments and analysis on three large-scale datasets: SemanticKITTI, nuScenes and Waymo. Our method not only outperforms existing methods on far away sparse points but also on close and medium distance points and efficiently runs in real time at 52.1 FPS on a RTX 4090 GPU.},
+    issn = {1077-3142},
+    doi = {https://doi.org/10.1016/j.cviu.2024.104231},
+    url = {https://www.sciencedirect.com/science/article/pii/S1077314224003126},
+    author = {Gopi Krishna Erabati and Helder Araujo},
+    keywords = {3D semantic segmentation, Retention, Autonomous driving, LiDAR},
+    abstract = {LiDAR semantic segmentation is one of the crucial tasks for scene understanding in autonomous driving. Recent trends suggest that voxel- or fusion-based methods obtain improved performance. However, the fusion-based methods are computationally expensive. On the other hand, the voxel-based methods uniformly employ local operators (e.g., 3D SparseConv) without considering the varying-density property of LiDAR point clouds, which result in inferior performance, specifically on far away sparse points due to limited receptive field. To tackle this issue, we propose novel retention block to capture long-range dependencies, maintain the receptive field of far away sparse points and design RetSeg3D, a retention-based 3D semantic segmentation model for autonomous driving. Instead of vanilla attention mechanism to model long-range dependencies, inspired by RetNet, we design cubic window multi-scale retentive self-attention (CW-MSRetSA) module with bidirectional and 3D explicit decay mechanism to introduce 3D spatial distance related prior information into the model to improve not only the receptive field but also the model capacity. Our novel retention block maintains the receptive field which significantly improve the performance of far away sparse points. We conduct extensive experiments and analysis on three large-scale datasets: SemanticKITTI, nuScenes and Waymo. Our method not only outperforms existing methods on far away sparse points but also on close and medium distance points and efficiently runs in real time at 52.1 FPS on a RTX 4090 GPU.}
     bibtex_show={true},
     preview={retseg3d.gif},
     abbr={3DSemSeg},
