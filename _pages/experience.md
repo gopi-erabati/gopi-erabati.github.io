@@ -30,4 +30,4 @@ Robot.
 * **Research Intern** - [Kakatiya University, India](https://kitsw.ac.in/) - (2012-2013)
   * Project: Development of quadcopter for search and rescue in natural disasters.
   * Mentor: [Dr. Srinivas](https://www.kitsw.ac.in/departments/ECIE/Faculty_Profiles/KSC.html)
-* Reviewer of IEEE RAL, IEEE IV-S, ICLR Tiny Papers, MMM. 
+* Reviewer of IEEE ICRA, IEEE RAL, IEEE IV-S, ICLR Tiny Papers, MMM. 
