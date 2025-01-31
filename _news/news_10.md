@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our *DDet3D* paper got accepted in *Applied Intelligence* journal.
+Our *[DDet3D](https://doi.org/10.1007/s10489-024-06045-1)* paper got accepted in *Applied Intelligence* journal.
