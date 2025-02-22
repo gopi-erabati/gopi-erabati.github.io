@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Marie Curie Ph.D. Candidate at <a href='https://isr.uc.pt/'>Institute of Systems and Robotics, University of Coimbra, Portugal</a>.
+subtitle: Marie Curie Ph.D. at <a href='https://isr.uc.pt/'>Institute of Systems and Robotics, University of Coimbra, Portugal</a>.
 
 profile:
   align: right
@@ -18,7 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently a Ph.D. candidate working on **Scene Understanding for Autonomous Driving** at the [Institute of Systems and Robotics, University of Coimbra, Portugal](https://isr.uc.pt/).
+I hold a 𝗠𝗮𝗿𝗶𝗲-𝗖𝘂𝗿𝗶𝗲 𝗣𝗵𝗗 from the [University of Coimbra, Portugal](https://www.uc.pt/), where I specialized in **𝗦𝗰𝗲𝗻𝗲 𝗨𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝗳𝗼𝗿 𝗔𝘂𝘁𝗼𝗻𝗼𝗺𝗼𝘂𝘀 𝗗𝗿𝗶𝘃𝗶𝗻𝗴**—pushing the boundaries of AI-driven perception! 🚘🤖
+
 I am fortunate to be advised by [Prof. Helder Araujo](https://orcid.org/0000-0002-9544-424X).
 My primary research interests are focused on computer vision and machine learning, specifically tasks related to scene understanding. 
 
