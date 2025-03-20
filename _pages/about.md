@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Marie Curie Ph.D. at <a href='https://isr.uc.pt/'>Institute of Systems and Robotics, University of Coimbra, Portugal</a>.
+subtitle: Marie Curie PhD | Computer Vision | Perception | Autonomous Driving
 
 profile:
   align: right
