@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented our SCAM-P paper at ICRA 2025 in Atlanta, USA
+Presented our [SCAM-P](https://ieeexplore.ieee.org/document/11128461) paper at ICRA 2025 in Atlanta, USA
