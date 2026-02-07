@@ -7,8 +7,12 @@ nav: true
 nav_order: 2
 ---
 
-**Research Experience**
-* **Researcher** - [ISR, University of Coimbra, Portugal](https://isr.uc.pt/) - (2022-present)
+**Experience**
+* **Software Engineer** - [sensmore, Berlin](https://www.sensmore.ai/) - (2025-present)
+  * Lead ML/Data initiatives for the perception stack of off-highway autonomous vehicles in harsh environments
+  * Developed a multimodal, multitask semantic occupancy prediction network from scratch using LiDAR/Radar–Camera fusion data
+  * Enhanced network performance and throughput by 15% while reducing data-loading latency by 20%
+* **Researcher** - [ISR, University of Coimbra, Portugal](https://isr.uc.pt/) - (2022-2024)
   * Tasks: Proposing novel algorithms for scene understadning tasks such as 3D object detection using LiDAR and
 multi-modal data fusion, 3D semantic segmentation, and panoptic driving perception.
   * Mentor: [Prof. Helder Araujo](https://orcid.org/0000-0002-9544-424X)
