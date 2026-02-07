@@ -17,7 +17,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am a Software Engineer specializing in ML and Perception at￼[sensmore](https://www.sensmore.ai/) in Berlin, where I lead ML and data initiatives for the perception stack of off‑highway autonomous vehicles operating in harsh environments. My work focuses on multitask learning for perception using LiDAR, Radar, and camera fusion data, building robust, scalable, and safety-critical models that are optimized for real-time deployment on edge devices.
+I am a **Software Engineer** specializing in **ML** and **Perception** at￼[sensmore](https://www.sensmore.ai/) in Berlin, where I lead ML and data initiatives for the perception stack of off‑highway autonomous vehicles operating in harsh environments. My work focuses on multitask learning for perception using LiDAR, Radar, and camera fusion data, building robust, scalable, and safety-critical models that are optimized for real-time deployment on edge devices.
 
 I hold a 𝗠𝗮𝗿𝗶𝗲-𝗖𝘂𝗿𝗶𝗲 𝗣𝗵𝗗 from the [University of Coimbra, Portugal](https://www.uc.pt/), where I specialized in **𝗦𝗰𝗲𝗻𝗲 𝗨𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝗳𝗼𝗿 𝗔𝘂𝘁𝗼𝗻𝗼𝗺𝗼𝘂𝘀 𝗗𝗿𝗶𝘃𝗶𝗻𝗴**—pushing the boundaries of AI-driven perception! 🚘🤖
 During my Ph.D. thesis, I worked on fundamental scene understanding tasks such as 3D object detection using LiDAR and
