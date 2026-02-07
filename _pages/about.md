@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Marie Curie PhD | Computer Vision | Perception | Autonomous Driving
+subtitle: Software Engineer | Marie Curie PhD | Computer Vision | Perception | Autonomous Driving
 
 profile:
   align: right
