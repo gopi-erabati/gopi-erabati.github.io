@@ -9,16 +9,21 @@ nav_order: 2
 
 **Experience**
 * **Software Engineer** - [sensmore, Berlin](https://www.sensmore.ai/) - (2025-present)
-  * Lead ML/Data initiatives for the perception stack of off-highway autonomous vehicles in harsh environments
-  * Developed a multimodal, multitask semantic occupancy prediction network from scratch using LiDAR/Radar–Camera fusion data
-  * Enhanced network performance and throughput by 15% while reducing data-loading latency by 20%
-* **Researcher** - [ISR, University of Coimbra, Portugal](https://isr.uc.pt/) - (2022-2024)
-  * Tasks: Proposing novel algorithms for scene understadning tasks such as 3D object detection using LiDAR and
-multi-modal data fusion, 3D semantic segmentation, and panoptic driving perception.
-  * Mentor: [Prof. Helder Araujo](https://orcid.org/0000-0002-9544-424X)
-* **Marie Curie Early Stage Researcher** - [ISR, University of Coimbra, Portugal](https://isr.uc.pt/) - (2019-2022)
-  * [EU H2020 MSCA-ITN-ACHIEVE](http://www2.imse-cnm.csic.es/achieve-itn/) project for scene understanding for autonomous driving.
-  * Mentor: [Prof. Helder Araujo](https://orcid.org/0000-0002-9544-424X)
+  * Lead ML and Data initiatives for the perception stack of off‑highway autonomous vehicles in harsh environments
+  * Developed a multimodal Vision‑Language‑Action (VLA) model for physical AI, integrating camera, LiDAR, and language inputs for autonomous
+driving
+  * Developed a real‑time multimodal, multitask semantic occupancy prediction network using LiDAR, radar, and camera fusion for off‑highway
+autonomous vehicle perception
+  * Improved model performance and throughput by 15% and reduced data‑loading latency by 20% through pipeline optimization, accelerating
+training and inference workflows
+* **Applied ML Research Engineer** - [Institute of Systems and Robotics, Coimbra, Portugal](https://isr.uc.pt/) - (2019-2024)
+  * Designed and implemented deep learning models for autonomous driving scene understanding, including 3D object detection, LiDAR semantic
+segmentation, panoptic perception, and sensor fusion under real world constraints such as sparse data, adverse weather, small objects and real‑
+time deployment
+  * Improved performance (3× speedup) and robustness in adverse weather for small‑object detection by developing novel LiDAR‑based and
+LiDAR‑camera fusion 3D object detection approaches
+  * Achieved real‑time inference (112 FPS) on NVIDIA Jetson edge GPU for panoptic driving perception and developed LiDAR‑based 3D semantic
+segmentation, improving accuracy for distant objects in sparse LiDAR point clouds using retention
 * **Research Intern** - [LAAS-CNRS, France](https://www.laas.fr/en/) - (2018)
   * 3D Object Detection and Relative Localization using a 3D sensor embedded on a Mobile
 Robot.
